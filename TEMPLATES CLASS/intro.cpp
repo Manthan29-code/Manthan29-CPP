@@ -66,6 +66,7 @@ class vector         // we can also define marco named size in tampelate { templ
 	     }
 };
 //this is  how to define template class function outside class
+
 /*template <class T>
 T vector<T>::sum()  // <return type> classname<T>:: member function
 {
@@ -78,6 +79,7 @@ T vector<T>::sum()  // <return type> classname<T>:: member function
             return total;
 }
 */
+
 template <class T>
 T vector<T>::max()
 {
